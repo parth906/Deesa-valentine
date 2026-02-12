@@ -1,0 +1,150 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Deesa ❤️</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background: black;
+  color: white;
+  text-align: center;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #000000, #2b0000);
+}
+
+h1 {
+  font-size: 2.8em;
+  color: gold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6em;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 1em;
+  background: gold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 90%;
+  max-width: 350px;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 25px red;
+}
+
+.red-bg {
+  background: #1a0000;
+}
+
+.black-bg {
+  background: black;
+}
+
+.paws {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-image: url('https://i.ibb.co/7R1X1hF/paw.png');
+  background-repeat: repeat;
+  opacity: 0.03;
+}
+</style>
+</head>
+
+<body>
+
+<div class="paws"></div>
+
+<section class="hero">
+  <h1>In a world full of stories...</h1>
+  <p>Mine began on 17th January 2025 ❤️</p>
+  <button onclick="document.getElementById('start').scrollIntoView()">🎬 Start The Film</button>
+</section>
+
+<section id="start" class="red-bg">
+  <h1>Starring: Deesa Nagda 🌹</h1>
+  <p>
+  The day you entered my life, everything became cinematic.  
+  Dramatic. Magical. Beautiful.  
+  Just the way you love it.
+  </p>
+
+  <div class="gallery">
+    <img src="photo1.jpg">
+    <img src="photo2.jpg">
+    <img src="photo3.jpg">
+  </div>
+</section>
+
+<section class="black-bg">
+  <h1>Why You’re My Favourite Plot Twist ❤️</h1>
+  <p>
+  Your filmy dramatic reactions.  
+  Your obsession with cats 🐱.  
+  Your unstoppable energy.  
+  Your Ranveer-level passion 🔥.  
+  And the way you make my life feel like a movie.
+  </p>
+</section>
+
+<section class="red-bg">
+  <h1>Ranveer-Level Love 🔥</h1>
+  <p>
+  If love had an energy meter,  
+  ours would be full Ranveer mode.  
+  Loud. Fearless. Passionate.  
+  Slightly dramatic. Completely unstoppable.
+  </p>
+</section>
+
+<section class="black-bg">
+  <h1>For The Girl Who Loves Cats 🐾</h1>
+  <p>
+  If loving you was a crime,  
+  I’d happily serve 9 lives.  
+  Future plan:  
+  1 House + 1 Us + 2 Cats + Lifetime Together ❤️
+  </p>
+</section>
+
+<section class="red-bg">
+  <h1>Deesa Nagda...</h1>
+  <p>Will you continue being the heroine of my life?</p>
+  <button onclick="alert('Happy Valentine’s Day My Main Character ❤️')">
+    Obviously Yes 😌
+  </button>
+</section>
+
+</body>
+</html>
